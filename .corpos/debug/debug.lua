@@ -17,6 +17,8 @@ salias("version","/.corpos/debug/v.lua")
 salias("v","/.corpos/debug/v.lua")
 salias("uninstall","/.corpos/debug/uninstall.lua")
 salias("update","/.corpos/debug/reinstallOS.lua")
+salias("CraftMailServer","/.corpos/software/CraftMAIL/server/CraftMailServer.lua")
+salias("craftmailserver","/.corpos/software/CraftMAIL/server/CraftMailServer.lua")
 
 ------------------------------
 --Propiété de l'ecran
@@ -30,9 +32,12 @@ term.setCursorPos(1,1)
 -------------------------------
 
 print("Chargement de CorpOS (DEBUG MOD)")
+term.setCursorPos(2,1)
 print("--------------------------------")
+term.setCursorPos(4,1)
+print("--------------------------------")
+term.setCursorPos(3,1)
 textutils.slowPrint("################################")
-print("--------------------------------")
 
 sleep(3)
 

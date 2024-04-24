@@ -15,7 +15,10 @@ run = shell.run
 salias("ll","list")
 salias("l","list")
 salias("nano","edit")
-salias("Firewolf","/.corpos/software/Firewolf.lua")
+salias("CraftMAIL","/.corpos/software/CraftMAIL/craftmail.lua")
+salias("craftmail","/.corpos/software/CraftMAIL/craftmail.lua")
+salias("firewolf","/.corpos/software/Firewolf.lua")
+salias("firewolf","/.corpos/software/Firewolf.lua")
 salias("debug","/.corpos/debug/debug.lua")
 salias("help","/.corpos/commands/help.lua")
 
