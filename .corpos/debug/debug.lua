@@ -32,12 +32,12 @@ term.setCursorPos(1,1)
 -------------------------------
 
 print("Chargement de CorpOS (DEBUG MOD)")
-term.setCursorPos(2,1)
+term.setCursorPos(1,2)
 print("--------------------------------")
-term.setCursorPos(4,1)
+term.setCursorPos(1,4)
 print("--------------------------------")
-term.setCursorPos(3,1)
-textutils.slowPrint("################################")
+term.setCursorPos(1,3)
+textutils.slowPrint("################################"
 
 sleep(3)
 
