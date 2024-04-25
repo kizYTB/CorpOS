@@ -17,8 +17,6 @@ salias("version","/.corpos/debug/v.lua")
 salias("v","/.corpos/debug/v.lua")
 salias("uninstall","/.corpos/debug/uninstall.lua")
 salias("update","/.corpos/debug/reinstallOS.lua")
-salias("CraftMailServer","/.corpos/software/CraftMAIL/server/CraftMailServer.lua")
-salias("craftmailserver","/.corpos/software/CraftMAIL/server/CraftMailServer.lua")
 
 ------------------------------
 --Propiété de l'ecran
@@ -37,7 +35,7 @@ print("--------------------------------")
 term.setCursorPos(1,4)
 print("--------------------------------")
 term.setCursorPos(1,3)
-textutils.slowPrint("################################"
+textutils.slowPrint("################################")
 
 sleep(3)
 

@@ -15,7 +15,7 @@ run = shell.run
 salias("ll","list")
 salias("l","list")
 salias("nano","edit")
-salias("Snake","/.corpos/software/Snake.luaa")
+salias("Snake","/.corpos/software/Snake.lua")
 salias("snake","/.corpos/software/Snake.lua")
 salias("firewolf","/.corpos/software/Firewolf.lua")
 salias("firewolf","/.corpos/software/Firewolf.lua")
