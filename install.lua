@@ -24,17 +24,11 @@ run("wget","https://corpos.bleucraft.fr/code/.corpos/debug/v.lua")
 --run("","")
 run("cd","/.corpos/software")
 run("wget","https://corpos.bleucraft.fr/code/.corpos/software/Firewolf.lua")
-run("mkdir","CraftMAIL")
-run("cd","/.corpos/software/CraftMAIL")
-run("mkdir","server")
-run("wget","https://corpos.bleucraft.fr/code/.corpos/software/CraftMAIL/craftmail.lua")
-run("cd","/.corpos/software/CraftMAIL/server")
-run("wget","https://corpos.bleucraft.fr/code/.corpos/software/CraftMAIL/server/CraftMailServer.lua")
 run("cd","/.corpos/startup")
 run("wget","https://corpos.bleucraft.fr/code/.corpos/startup/startup.lua")
 run("cp","startup.lua","/")
 run("cd","/")
-run("rm","install;lua")
+run("rm","install.lua")
 
 ------------------------
 --Redemarrege
